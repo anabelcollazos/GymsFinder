@@ -8,9 +8,10 @@
 	width: 150px;
 	height: 150px;
 }
-#con1{background: url("../img/portada.jpg");}
-#con2{background: url("../img/portada2.jpg");
-	background-repeat: repeat-x;}
+/* #con1{background: url("../img/portada.jpg");} */
+#con1{background-color:white;}
+#con2{background-color:whitesmoke;}
+#con3{background-color:white;}
 
 
 .texto {
@@ -21,11 +22,16 @@
 #stilo {
 	font-family: 'Fredericka the Great', cursive;
 	font-weight: bold;
-	color: white;
+	color: #85D2DC;
 	font-size: 50px;
+}
+#txtbarra{
+	font-weight: bold;
 }
 
 .estilo{display: none;}
+
+.estilo1{display: none;}
 
 .grupo {
 	position: absolute;
@@ -39,4 +45,9 @@
 	/*border: none;*/
 	position: relative;
 	top: -15px;
+}
+
+
+.brandingTextCont p {
+	font-size: 0;
 }
