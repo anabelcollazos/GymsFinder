@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 * {
 	/*margin: 0;*/
 	box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
 .logo{
 	width: 150px;
 	height: 150px;
 }
-#con1{background: url("../img/portada.jpg");}
-#con2{background: url("../img/portada2.jpg");
-	background-repeat: repeat-x;}
 
+/* #con1{background-color:rgb(97, 47, 177);} */
+/* #con2{background-color:whitesmoke;} */
+#con1{background: url("../img/trama.jpg");}
+#con2{background: url("../img/trama5.jpg");}
+#con3{background-color:white;}
 
 .texto {
     display: flex;
@@ -21,11 +23,16 @@
 #stilo {
 	font-family: 'Fredericka the Great', cursive;
 	font-weight: bold;
-	color: white;
+	color: blue;
 	font-size: 50px;
+}
+#txtbarra{
+	font-weight: bold;
 }
 
 .estilo{display: none;}
+
+.estilo1{display: none;}
 
 .grupo {
 	position: absolute;
@@ -39,4 +46,16 @@
 	/*border: none;*/
 	position: relative;
 	top: -15px;
+}
+
+.brandingTextCont p {
+	font-size: 0;
+}
+
+.formulario{
+	width: 1050px;
+	height: 530px;
+	margin: 50px auto;
+	background: red;
+	border-radius: 10px;
 }
