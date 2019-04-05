@@ -1,5 +1,6 @@
     <div class="logo-container" id="con1">
 		<div class="container">
+
 			<!-- <div class="texto"> -->
 				<div class="row">
 					<div class="col-md-2">
@@ -13,7 +14,6 @@
 			<!-- </div> -->
 		</div>
 		</div>
-
 
 	<nav class="navbar navbar-default navbar-static-top" id="con2">
 		<div class="container" >
@@ -31,7 +31,7 @@
 					<li><a href="#" id="txtbarra">Realice su búsqueda</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="SolicitarCupon.php"id="txtbarra">Conseguir cupón</a></li>
+					<li><a href="#"id="txtbarra">Conseguir cupón</a></li>
 					<li><a href="RegistrarGyms.php"id="txtbarra">¿Tiene un gimnasio?</a></li>
 				</ul>
 			</div>

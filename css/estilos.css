@@ -9,10 +9,15 @@
 	height: 150px;
 }
 
+/* #con1{background: url("../img/portada.jpg");} */
+#con1{background-color:white;}
+#con2{background-color:whitesmoke;}
+#con3{background-color:white;}
+
 /* #con1{background-color:rgb(97, 47, 177);} */
-/* #con2{background-color:whitesmoke;} */
-#con1{background: url("../img/trama.jpg");}
-#con2{background: url("../img/trama5.jpg");}
+#con2{background-color:white;}
+/* #con1{background: url("../img/trama.jpg");} */
+/* #con2{background: url("../img/trama5.jpg");} */
 #con3{background-color:white;}
 
 .texto {
@@ -40,22 +45,23 @@
 }
 
 #imagen{
-	/*width: 500px;*/
-	height: 480px;
+	height: 460px;
 	padding-top: 0;
 	/*border: none;*/
-	position: relative;
+	position: center;
 	top: -15px;
 }
+
 
 .brandingTextCont p {
 	font-size: 0;
 }
 
 .formulario{
-	width: 1050px;
-	height: 530px;
 	margin: 50px auto;
 	background: red;
-	border-radius: 10px;
+	border-radius: 0px;}
+
+.brandingTextCont p {
+	font-size: 0;
 }

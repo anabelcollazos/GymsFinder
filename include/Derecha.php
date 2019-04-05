@@ -1,7 +1,10 @@
+
         <div class="w3-content w3-section" style="max-width:500px">
-					<img class="estilo1 img-fluid img-thumbnail" src="img/Modelos/chico1.jpeg" style="width:100%" id="imagen">
-					<img class="estilo1 img-fluid img-thumbnail" src="img/Modelos/chico2.jpg" style="width:100%" id="imagen">
-					<img class="estilo1 img-fluid img-thumbnail" src="img/Modelos/chico3.jpg" style="width:100%" id="imagen">
+
+          <div class="w3-content w3-section" style="max-width:500px">
+					<img class="estilo1" src="img/Modelos/chico1.jpeg" style="width:270px" id="imagen">
+					<img class="estilo1" src="img/Modelos/chico2.jpg" style="width:270px" id="imagen">
+					<img class="estilo1" src="img/Modelos/chico3.jpg" style="width:270px" id="imagen">
 				</div>
 
 				<script>
