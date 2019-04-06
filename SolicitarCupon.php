@@ -14,28 +14,41 @@
 			<div class="col-lg-6 col-md-12">
 
 				<section class="formulario">
-					<form action="enviar.php" method="post" class="form-cupon">
-						<h3>Solicitar Cupón</h3>
-						<div class="user_info">
+					<form action="MensajeCupon.php" method="post" class="form_cupon">	
+						<!-- <div id="BarraTitulo"> -->
+						<h2>SOLICITAR CUPÓN</h2>
+						<hr>
+						<!-- </div> -->
+						<div class="user_info" style="width:100%" >
 							<label for="names">Nombres *</label>
+							<div class="icono">
 							<span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
 							<input type="text" id="names" name="nombre" required>
+							</div>
 
 							<label for="surname">Apellidos *</label>
+							<div class="icono">
 							<span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
 							<input type="text" id="surname" name="apellido" required>
+							</div>
 
 							<label for="email">Gmail *</label>
+							<div class="icono">
 							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 
 							<input type="text" id="email"name="gmail" required>
+							</div>
 
 							<label for="gym">Gimnasio *</label>
+							<div class="icono">
 							<span class="glyphicon glyphicon-tint" aria-hidden="true"></span> 
 							<input type="text" id="gym" name="gimnasio" required>
+							</div>
 
 							<label for="direc">Dirección del gimnasio *</label>
+							<div class="icono">
 							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 
 							<input type="text" id="direc" name="direccion" required>
+							</div>
 
 							<input type="submit" value="Solicitar cupón" id="btnEnviar">
 

@@ -1,16 +1,16 @@
-    <div class="logo-container" id="con1">
-		<div class="container">
-			<!-- <div class="texto"> -->
-				<div class="row">
+    <div class="logo-container header-image">
+		<div class="container ">
+
+				<div class="row contenido">
 					<div class="col-md-2">
 						<img  src="img/Logo.png" alt="" class="logo">
 					</div>
 					<div class="col-md-10">
 						<h1 id="stilo">GYMS FINDER</h1>
-						<p>Buscador de Gimnasios en Lima</p>
+						<p id="estils">Buscador de Gimnasios en Lima</p>
 					</div>
 				</div>
-			<!-- </div> -->
+
 		</div>
 		</div>
 
@@ -31,7 +31,9 @@
 					<li><a href="#" id="txtbarra">Realice su búsqueda</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
+
 					<li><a href="SolicitarCupon.php"id="txtbarra">Conseguir cupón</a></li>
+
 					<li><a href="RegistrarGyms.php"id="txtbarra">¿Tiene un gimnasio?</a></li>
 				</ul>
 			</div>
