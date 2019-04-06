@@ -38,6 +38,18 @@
 /* #con1{background-color:floralwhite;} */
 /* #con1{background: url("../img/trama.jpg");} */
 #con2{background-color:white;}
+
+
+/* #con1{background: url("../img/portada.jpg");} */
+#con1{background-color:white;}
+#con2{background-color:whitesmoke;}
+#con3{background-color:white;}
+
+/* #con1{background-color:rgb(97, 47, 177);} */
+#con2{background-color:white;}
+/* #con1{background: url("../img/trama.jpg");} */
+/* #con2{background: url("../img/trama5.jpg");} */
+
 #con3{background-color:white;}
 
 .texto {
@@ -49,6 +61,7 @@
 	font-family: 'Fredericka the Great', cursive;
 	font-weight: bold;
 	color:mediumblue;
+	color: blue;
 	font-size: 50px;
 }
 #estils{color:black}
@@ -67,11 +80,10 @@
 }
 
 #imagen{
-	/*width: 500px;*/
-	height: 480px;
+	height: 460px;
 	padding-top: 0;
 	/*border: none;*/
-	position: relative;
+	position: center;
 	top: -15px;
 }
 
@@ -154,4 +166,12 @@ form.form_cupon input[type="submit"]{
 
 form.form_cupon input[type="submit"]:hover{
     background: #3371B6;
+
+	margin: 50px auto;
+	background: red;
+	border-radius: 0px;}
+
+.brandingTextCont p {
+	font-size: 0;
+
 }

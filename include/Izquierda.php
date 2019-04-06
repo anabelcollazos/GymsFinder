@@ -1,7 +1,9 @@
 <div class="w3-content w3-section" style="max-width:500px">
-  	<img class="estilo img-fluid img-thumbnail" src="img/Modelos/chica1.jpg" style="width:100%" id="imagen">
-	<img class="estilo img-fluid img-thumbnail" src="img/Modelos/chica2.jpg" style="width:100%" id="imagen">
-	<img class="estilo img-fluid img-thumbnail" src="img/Modelos/chica3.png" style="width:100%" id="imagen">
+
+  	<img class="estilo img-fluid" src="img/Modelos/chica1.jpg" style="width:270px" id="imagen">
+	<img class="estilo img-fluid" src="img/Modelos/chica2.jpg" style="width:270px" id="imagen">
+	<img class="estilo img-fluid" src="img/Modelos/chica3.png" style="width:270px" id="imagen">
+
 </div>
 <script>
 	var myIndex = 0;
