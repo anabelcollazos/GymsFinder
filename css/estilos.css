@@ -166,10 +166,7 @@ form.form_cupon input[type="submit"]{
 
 form.form_cupon input[type="submit"]:hover{
     background: #3371B6;
-
-	margin: 50px auto;
-	background: red;
-	border-radius: 0px;}
+}
 
 .brandingTextCont p {
 	font-size: 0;
